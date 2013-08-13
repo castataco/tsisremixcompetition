@@ -8,6 +8,9 @@ group :assets do
   gem 'compass'
 end
 
+ruby '2.0.0'
+
+
 gem 'sass-rails', " ~> 3.1.6"
 gem 'jquery-rails'
 gem 'haml'
