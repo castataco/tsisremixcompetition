@@ -1,26 +1,26 @@
 # Be sure to restart your server after you modify this file.
 
 # Register your app at https://soundcloud.com/you/apps and copy&paste Client ID and Secret here
-client_id: ''
-client_secret: ''
+client_id: '625c5eddd3159e3c30bf973d6041159a'
+client_secret: 'b25ea45182110b2702859c8974ab0d0f'
 
 # Your secret key for verifying the integrity of signed cookies.
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-secret_token: ''
+secret_token: 'I am sorry that your yolo swag is in my swag yolo'
 
 # Replace these defaults with the right values for your competition
 # These will only be applied the first time you run `rake db:setup`
 competition:
-  host: 'SoundCloud'
-  title: 'Competition'
-  intro: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat leo vitae leo rutrum ullamcorper. Maecenas in orci nulla. Aenean gravida adipiscing arcu at sodales.'
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat leo vitae leo rutrum ullamcorper. Maecenas in orci nulla. Aenean gravida adipiscing arcu at sodales. Donec nisl lacus, gravida sit amet aliquam vitae, pulvinar at sapien. Nullam congue convallis libero, ut luctus erat posuere eu. Fusce sit amet ante nisi, ac viverra ligula. Etiam vel velit tellus. Phasellus pharetra, ligula fermentum interdum lobortis, lorem arcu pulvinar urna, vel blandit augue augue pulvinar elit. Duis nec justo ut mi sollicitudin eleifend sed sit amet leo. Quisque aliquet quam eget tortor tincidunt malesuada. Vivamus at neque ut sem molestie vulputate ac id diam. Fusce ut pulvinar leo. Curabitur sit amet dui ut nulla venenatis pretium ac vel dolor. Aliquam id imperdiet arcu. Vestibulum molestie venenatis tellus, sed lobortis nisi sodales ac.'
-  prizes: '* Prize 1'
-  about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat leo vitae leo rutrum ullamcorper. Maecenas in orci nulla. Aenean gravida adipiscing arcu at sodales.'
-  #group: ''
-  #rules: ''
-  #download: ''
-  start_date:
-  end_date:
+  host: 'ThisSongIsSick'
+  title: 'Official Remix Competition for “Drama” by Bro Safari x UFO! sponsored by Soundcloud'
+  intro: 'The diverse bass fueled electronic producer Bro Safari teamed up with the mysterious UFO! for “Drama” the lead single off their recent freely released Animal album. Now the recent trap anthem has been broken down to it’s individual stems for all you aspiring remixers to take a chance at creating the next official remix of it'
+  description: 'The diverse bass fueled electronic producer Bro Safari teamed up with the mysterious UFO! for “Drama” the lead single off their recent freely released Animal album. Now the recent trap anthem has been broken down to it’s individual stems for all you aspiring remixers to take a chance at creating the next official remix of it. The top winner will get their remix released alongside the original and an unreleased B-Side from the album. This will be the first time the release is available on Beatport, and will be getting released under This Song Is Sick Records and receive a home page feature on ThisSongIsSick.com, and a $500 gift card to Karmaloop.com, as well as included on the official Bro Safari x UFO! – Animal Remix Album. The 2 runner ups picked will get get $150 Karmaloop Gift Cards.'
+  prizes: 'Grand Prize <br> * $500 Karmaloop Gift Card <br> * Inclusion on Official Bro Safari x UFO - Animal Remix Album <br> * This Song is Sick Home Page Placement <br> * Bro Safari & This Song is Sick Survivial Kit (Stickers, Shirts, Etc) <br><br><b>Runner Up (2 Picked)</b><br><br>*$150 Karmaloop Gift Card <br> *Bro Safari & This Song is Sick Survival Kit (Sticker, Shirt, Etc) <br> *Potential Feature on This Song is Sick Home Page Placement'
+  about: ' We work with the artists to spread their music. Most of the artists choose to give away their music for free to spread it to as many ears as possible. Please support the artists by purchasing tickets to see them live in concert and what music they do have for sale!'
+  group: 'Bro Safari & UFO Remix Contest'
+  rules: 'http://thissongissick.com/blog/bro-safari-ufo-drama-remix-competition/'
+  download: 'http://bit.ly/17Ujflj'
+  start_date: 'Jul 3 2013'
+  end_date: 'August 30 2013'
