@@ -15,4 +15,4 @@
     %input#track_agreed(name="track[agreed]" type="checkbox" value=0)
     I agree to the #{link_to "Contest Rules", @competition.rules, :style => "text-decoration:underline", :target => "_blank"}.
 
-  %p= link_to "Submit Track", nil, :class => "button submit disabled"
+  %p= f.submit "Submit Track", :class => "button submit disabled"
