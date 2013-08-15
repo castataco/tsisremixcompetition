@@ -19,7 +19,8 @@
     %meta(property="og:site_name" content="#{@competition.host}")
 
     = stylesheet_link_tag    "application"
-    = javascript_include_tag "jquery", "jquery_ujs", "chosen.jquery.min", "soundmanager2", "jquery.timeago", "jquery.tmpl", "competition", "record"
+    = javascript_include_tag "application"
+    //= javascript_include_tag "jquery", "jquery_ujs", "chosen.jquery.min", "soundmanager2", "jquery.timeago", "jquery.tmpl", "competition", "record"
     = javascript_include_tag "http://connect.soundcloud.com/sdk.js"
     = csrf_meta_tags
 
