@@ -33,7 +33,7 @@ class User < ActiveRecord::Base
 
   def soundcloud_tracks
     tracks = []
-    eof = true
+    eof = false
     offset = 0
 
     until eof == true do
