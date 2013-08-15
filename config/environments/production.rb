@@ -12,10 +12,10 @@ SoundCloudCompetition::Application.configure do
   config.serve_static_assets = true
 
   # Compress JavaScripts and CSS
-  config.assets.compress = true
+  config.assets.compress = false
   
   # Don't fallback to assets pipeline if a precompiled asset is missed
-  config.assets.compile = false
+  # config.assets.compile = false
   
   # Generate digests for assets URLs
   config.assets.digest = true
@@ -38,7 +38,6 @@ SoundCloudCompetition::Application.configure do
 
   # Use a different cache store in production
   # config.cache_store = :mem_cache_store
-  config.cache_store = :dalli_store
   config.cache_store = :dalli_store,
     (ENV["MEMCACHIER_SERVERS"] || "").split(","),
     {:username => ENV["MEMCACHIER_USERNAME"],
