@@ -11,4 +11,4 @@
 //= require jquery.timeago
 //= require jquery.tmpl
 //= require_tree .
-;
+
