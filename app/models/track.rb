@@ -41,7 +41,7 @@ class Track < ActiveRecord::Base
       user.soundcloud.put("/groups/#{competition.group}/contributions/#{tid}") if competition.group
     rescue SoundCloud::ResponseError
       puts "Could not put track in group."
-    end
+    end rescue nil
   end
 
   def remove_from_group
