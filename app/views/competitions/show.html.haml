@@ -20,7 +20,7 @@
       - if Time.now < @competition.end_date
         %p #{distance_of_time_in_words @competition.end_date, Time.now} left to vote
         %h3 Vote From
-        %p #August 15 > #{@competition.end_date.strftime "%B %e, %Y"}
+        %p August 15 > #{@competition.end_date.strftime "%B %e, %Y"}
       - else
         %p Competition is now closed.
       %h3 Share this Competition
