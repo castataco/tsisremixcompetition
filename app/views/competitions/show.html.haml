@@ -55,7 +55,7 @@
   .eight.columns
     %hr.large
     %h2= @competition.host
-    = image_tag "yup.png"
+    = image_tag "yup.png", :height => 170, :width => 455
     = markdown @competition.about
 
 = render "player"
