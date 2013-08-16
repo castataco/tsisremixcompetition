@@ -4,9 +4,6 @@
     %div
       %h1 Your Challenge
       = markdown @competition.intro
-      %p
-        - if Time.now < @competition.end_date
-          = link_to "Vote", tracks_path, :class => "button"
 
   .banner.two-thirds.column
     = image_tag "banner.jpg", :height => 300, :width => 620, :class => "scale-with-grid", :alt => "#{@competition.host} #{@competition.title}"
