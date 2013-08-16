@@ -3,7 +3,7 @@ class Competition < ActiveRecord::Base
   has_many :tracks
 
   def latest_tracks
-    tracks.all(:limit => 6, :order => "created_at DESC")
+    tracks.all(:limit => 10, :order => "created_at DESC")
   end
 
   def top_tracks
