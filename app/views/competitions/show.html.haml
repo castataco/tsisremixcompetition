@@ -55,7 +55,7 @@
   .eight.columns
     %hr.large
     %h2= @competition.host
-    = image_tag "yup.png", :height => 215, :width => 350, :class => "scale-with-grid"
+    = link_to image_tag "yup.png", :height => 215, :width => 350, :class => "scale-with-grid", "http://blog.thissongissick.com"
     = markdown @competition.about
 
 = render "player"
