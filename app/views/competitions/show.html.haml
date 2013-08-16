@@ -56,6 +56,7 @@
     %hr.large
     %h2= @competition.host
     = image_tag "yup.png", :height => 275, :width => 450, :class => "scale-with-grid"
+	= link_to(image_tag("yup.png"), "http://blog.thissongissick.com")
     = markdown @competition.about
 
 = render "player"
