@@ -2,7 +2,7 @@ namespace :competition do
   desc "Import tracks from SoundCloud Group"
   task :import => :environment do
 
-    # rake competition:import GROUP=http://soundcloud.com/groups/test
+    rake competition:import GROUP=http://soundcloud.com/groups/bro-safari-x-ufo-drama-remix-competition-sponsored-by-soundcloud/
 
     @group = HTTParty.get("http://api.soundcloud.com/resolve?url=#{ENV["GROUP"]}&consumer_key=#{Settings.client_id}&format=json")
 
