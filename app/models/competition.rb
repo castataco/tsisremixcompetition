@@ -7,6 +7,6 @@ class Competition < ActiveRecord::Base
   end
 
   def top_tracks
-    tracks.plusminus_tally(:limit => 6)
+    tracks.plusminus_tally(:limit => 10)
   end
 end
